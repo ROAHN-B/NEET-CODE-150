@@ -1,10 +1,5 @@
-from collections import defaultdict
-
-
-# class Solution:
-#     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
-#         res = defaultdict(list)
-#         for s in strs:
-#             sortedS = "".join(sorted(s))
-#             res[sortedS].append(s)
-#         print(list(res.values()))
+for ele in tokens:
+#     if 48 <= ord(ele) <= 57:
+#         tokens[ele] = tokens.append(int(ele))
+#     else:
+#         continue
