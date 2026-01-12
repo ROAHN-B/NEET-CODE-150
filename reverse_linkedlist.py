@@ -15,5 +15,12 @@ class Solution:
         return prev
 
 
-s1 = ListNode([1, 2, 3, 4, 5])
-print(Solution)
+head = ListNode(1, (ListNode(2, ListNode(3))))
+s1 = Solution()
+reversed_head = s1.reverseList(head)
+output = []
+current = reversed_head
+while current:
+    output.append(current.val)
+    current = current.next
+print(output)
